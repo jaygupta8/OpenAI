@@ -20,14 +20,12 @@ The notebook uses a unique approach to load a PDF book, split it up into documen
 
 ## Usage
 
-To use this notebook, you need to have access to OpenAI and Pinecone. You also need to install the required Python libraries, including LangChain and Pinecone's Python client.
+The libraries used in this notebook include:
 
-## Example
+1. **langchain**: This library is used for loading and processing the PDF data, creating embeddings, and setting up the question-answering chain.
+2. **pinecone**: This library is used for initializing the Pinecone vector database and performing similarity search.
+3. **OpenAI**: This library is used for creating embeddings and answering questions.
 
-Here is an example of a question you can ask the system:
+## Medium Article
 
-```python
-query = "What will be the best period (age wise) for this native? Analyze all his below details: ..."
-docs = docsearch.similarity_search(query)
-chain({"input_documents": docs, "human_input": query}, return_only_outputs=True)
-```
+https://medium.com/@srijay.gupta/harnessing-ai-for-vedic-astrology-e30da8ef9dea
