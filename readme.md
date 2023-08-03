@@ -25,7 +25,3 @@ The libraries used in this notebook include:
 1. **langchain**: This library is used for loading and processing the PDF data, creating embeddings, and setting up the question-answering chain.
 2. **pinecone**: This library is used for initializing the Pinecone vector database and performing similarity search.
 3. **OpenAI**: This library is used for creating embeddings and answering questions.
-
-## Medium Article
-
-https://medium.com/@srijay.gupta/harnessing-ai-for-vedic-astrology-e30da8ef9dea
