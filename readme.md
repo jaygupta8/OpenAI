@@ -1,9 +1,5 @@
 # Vedic Astrology Analysis
 
-This repository contains a Jupyter notebook that uses the power of OpenAI, LangChain, and Pinecone to perform semantic search and analysis on Vedic Astrology data.
-
-## Overview
-
 The notebook uses a unique approach to load a PDF book, split it up into documents, get vectors for those documents as embeddings, and then ask a question. The technique can be used to query books as well as internal documents or external data sets.
 
 ## How it Works
